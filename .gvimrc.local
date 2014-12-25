@@ -1,0 +1,15 @@
+" Display settings
+set guifont=Andale_Mono:h12,Menlo:h11,Consolas:h12,Courier_New:h12
+color fruity
+au GUIEnter * simalt ~x
+
+" backup and swap file
+set directory=c:\temp
+set backupdir=c:\temp
+
+" fold
+set foldmethod=syntax
+
+" NERDTree
+autocmd vimenter * NERDTree
+let NERDTreeQuitOnOpen=0
